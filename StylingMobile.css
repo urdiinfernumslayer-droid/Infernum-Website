@@ -1,0 +1,135 @@
+@font-face {
+   font-family: Tektur-Regular;
+   src: url(Tektur-Regular.ttf);
+}
+@font-face {
+   font-family: Tektur-Bold;
+   src: url(Tektur-Bold.ttf);
+}
+img {
+	outline-style: solid;
+	outline-width: 4px;
+	outline-color: #110011;
+	box-shadow: 0px 0px 20px #ff00ff;
+	display: inline;
+	float: left;
+	transition: transform 0.5s;
+}
+body {
+	text-align: center;
+	padding-left: 80px; 
+	background: linear-gradient(30deg,rgba(31, 27, 51, 1) 0%, rgba(0, 0, 0, 1) 100%);
+	font-family: Tektur-Regular;
+	opacity: 0;
+    transition: opacity 1s ease, transform 2s;
+    animation-duration: 3s;
+	animation-iteration-count: infinite;
+	transform: scale(0.5);
+}
+h1 {
+	font-family: Tektur-Bold;
+	color: #ff44ff;
+	text-shadow: 0 0 20px #ff00ff;
+	font-size: 75px;
+	box-shadow: 0px 0px 40px #770077;
+	background-color: #330033;
+	animation-name: textanimate;
+    animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+hr.hr1 {
+	border: 6px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 150px;
+	background-color: #ff44ff;
+	float: right;
+	position: sticky;
+	top: 0;
+	box-shadow: 0px 0px 10px #ff00ff;
+}
+li a {
+	display: block;
+	color: black;
+	height: 40px;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	transition: transform 0.5s;
+}
+li a:hover {
+	background-color: #ffaaff;
+	transform: scale(1.05);
+}
+p {
+	float: left;
+	font-size: 20px;
+	color: #ff44ff;
+	text-shadow: 0 0 10px #ff00ff;
+	display: inline;
+	float: left;
+	margin: 15px;
+}
+h2 {
+	float: left;
+	margin: 20px;
+	color: #ff44ff;
+	text-shadow: 0 0 10px #ff00ff;
+	display: inline;
+}
+#text {
+	outline-style: solid;
+	outline-width: 4px;
+	outline-color: rgba(255, 0, 255, 0.4);
+	float: left;
+	display: inline;
+	box-shadow: 0px 0px 20px rgba(255, 0, 255, 0.8);
+	margin: 40px;
+	margin-left: 0px;
+	width: 660px;
+	transition: transform 0.5s;
+}
+#text2 {
+	outline-style: solid;
+	outline-width: 4px;
+	outline-color: rgba(255, 0, 255, 0.4);
+	float: left;
+	display: inline;
+	box-shadow: 0px 0px 20px rgba(255, 0, 255, 0.8);
+	width: 800px;
+	transition: transform 0.5s;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wrapper {
+	float: left;
+    width: 1000px;
+}
+.loaded {
+	opacity : 1;
+	transform: scale(1)
+}
+@keyframes textanimate {
+	0%   {color: #ff44ff; text-shadow: 0 0 20px #ff00ff;}
+	50%  {color: #ffaaff; text-shadow: 0 0 40px #ffaaff;}
+	100% {color: #ff44ff; text-shadow: 0 0 20px #ff00ff;}
+}
+@keyframes mainanimate {
+	0%   {transform:scale(1)}
+	50%  {transform:scale(0.99)}
+	100% {transform:scale(1)}
+}
+img:hover {
+	transform: scale(1.05);
+}
+#text:hover {
+	transform: scale(1.05);
+}
+#text2:hover {
+	transform: scale(1.05);
+}
