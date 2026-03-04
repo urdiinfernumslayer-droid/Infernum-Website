@@ -108,7 +108,7 @@ h2 {
 }
 .wrapper {
 	float: left;
-    width: 1000px;
+    width: 925px;
 }
 .loaded {
 	opacity : 1;
@@ -132,4 +132,5 @@ img:hover {
 }
 #text2:hover {
 	transform: scale(1.05);
+
 }
