@@ -29,6 +29,8 @@ body {
 h1 {
 	font-family: Tektur-Bold;
 	color: #ff44ff;
+	float: left;
+	width: 925;
 	text-shadow: 0 0 20px #ff00ff;
 	font-size: 75px;
 	box-shadow: 0px 0px 40px #770077;
@@ -134,3 +136,4 @@ img:hover {
 	transform: scale(1.05);
 
 }
+
