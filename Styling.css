@@ -8,16 +8,16 @@
 }
 img {
 	outline-style: solid;
-	outline-width: 4px;
+	outline-width: 0.2%;
 	outline-color: #110011;
-	box-shadow: 0px 0px 20px #ff00ff;
+	box-shadow: 0px 0px 40px #ff00ff;
 	display: inline;
 	float: left;
 	transition: transform 0.5s;
 }
 body {
 	text-align: center;
-	padding-left: 80px; 
+	padding-left: 4%; 
 	background: linear-gradient(30deg,rgba(31, 27, 51, 1) 0%, rgba(0, 0, 0, 1) 100%);
 	font-family: Tektur-Regular;
 	opacity: 0;
@@ -30,7 +30,7 @@ h1 {
 	font-family: Tektur-Bold;
 	color: #ff44ff;
 	text-shadow: 0 0 20px #ff00ff;
-	font-size: 75px;
+	font-size: 600%;
 	box-shadow: 0px 0px 40px #770077;
 	background-color: #330033;
 	animation-name: textanimate;
@@ -38,14 +38,14 @@ h1 {
 	animation-iteration-count: infinite;
 }
 hr.hr1 {
-	border: 6px solid rgba(0, 0, 0, 0.2);
-    border-radius: 3px;
+	border: 10px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.15%;
 }
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	width: 150px;
+	width: 7.5%;
 	background-color: #ff44ff;
 	float: right;
 	position: sticky;
@@ -90,23 +90,23 @@ h2 {
 	box-shadow: 0px 0px 20px rgba(255, 0, 255, 0.8);
 	margin: 40px;
 	margin-left: 60px;
-	width: 660px;
+	width: 33%;
 	transition: transform 0.5s;
 }
 #text2 {
 	outline-style: solid;
-	outline-width: 4px;
+	outline-width: 0.2%;
 	outline-color: rgba(255, 0, 255, 0.4);
 	float: left;
 	display: inline;
-	box-shadow: 0px 0px 20px rgba(255, 0, 255, 0.8);
-	width: 450px;
+	box-shadow: 0px 0px 1% rgba(255, 0, 255, 0.8);
+	width: 22.5%;
 	transition: transform 0.5s;
 }
 .wrapper {
     margin-left:auto;
     margin-right:auto;
-    width:2000px;
+    width: auto;
 }
 .loaded {
 	opacity : 1;
