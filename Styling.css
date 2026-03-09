@@ -45,7 +45,7 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	width: 7.5%;
+	width: 150px;
 	background-color: #ff44ff;
 	float: right;
 	position: sticky;
@@ -131,3 +131,4 @@ img:hover {
 #text2:hover {
 	transform: scale(1.05);
 }
+
